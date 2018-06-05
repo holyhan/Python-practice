@@ -1,0 +1,11 @@
+# 集合的方式还可以写成bri = set(['brazil', 'russia', 'india'])
+bri = {'brazil', 'russia', 'india'}
+print('india' in bri)
+print('use' in bri)
+bric = bri.copy()
+bric.add('china')
+bric.issuperset(bri)
+bri.remove('russia')
+print(bri & bric)
+bri.add('india')
+print(bri)
