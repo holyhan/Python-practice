@@ -9,7 +9,7 @@ if name.startswith('Swa'):
 if 'a' in name:
     print('Yes, it contains the string "a"')
 
-
+# str.find(value)函数用来查找value所在的位置，比如下面返回1，找不到返回-1
 if name.find('war') != -1:
     print('Yes, it contains the string "war"')
 

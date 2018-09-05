@@ -4,7 +4,7 @@ shoplist = ['apple', 'mango', 'carrot', 'banana']
 
 print('I have', len(shoplist), 'items to purchase.')
 
-
+# end=' '表示默认不换行，加空格
 print('These items are:', end=' ')
 for item in shoplist:
     print(item, end=' ')
